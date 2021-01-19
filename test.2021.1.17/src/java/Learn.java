@@ -13,7 +13,7 @@ public class Learn
 		System.out.println("*******1.收支明细     2.登记收入*********\n");
 		System.out.println("*******3.登记支出     4.退出程序*********\n");
 		boolean swit=true;
-		while(swit)
+		while(true)
 		{
 			System.out.println("请选择》》:\n");
 			Scanner in=new Scanner(System.in);
@@ -38,7 +38,8 @@ public class Learn
 						swit=false;
 					}
 					break;
-				default :S					System.out.println("输入错误，请重新输入！！！\n");
+				default :
+					System.out.println("输入错误，请重新输入！！！\n");
 					break;
 			}
 		}
