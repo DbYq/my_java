@@ -12,8 +12,9 @@ public class start
 		System.out.println(p1.name);
 		p1.talk("Chinese");
 		p1.eat();
+		Person p2=new Person();
+		System.out.println(p2.name);
 	}
-
 }
 class Person
 {
