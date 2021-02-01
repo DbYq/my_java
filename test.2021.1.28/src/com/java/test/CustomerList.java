@@ -51,7 +51,7 @@ public class CustomerList
 		Customer[] custs=new Customer[total];
 		for(int i=0;i<total;i++)
 		{
-			customers[i]=custs[i];
+			custs[i]=customers[i];
 		}
 		return custs;
 	}

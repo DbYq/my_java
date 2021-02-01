@@ -178,7 +178,7 @@ public class CustomerView
 				{
 					Customer cust=custs[i];
 					System.out.println((i+1)+"\t"+cust.getName()+"\t"+cust.getGender()+"\t"
-							+cust.getAge()+"\t"+cust.getPhone()+"\t\t"+cust.getEmail());
+							+cust.getAge()+"\t"+cust.getPhone()+"\t"+cust.getEmail());
 				}
 			}
 			
