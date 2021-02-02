@@ -11,5 +11,5 @@ public class DebugTest
 		char[] arr1=new char[] {'a','b','c'};
 		System.out.println(arr1);
 	}
-
+	
 }
