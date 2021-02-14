@@ -9,6 +9,13 @@ public class Manager extends Employee
 		super(name, salary, year, month, day);
 		// TODO Auto-generated constructor stub
 	}
-	public 
+	public double getSalary()
+	{
+		return super.getSalary()+bonus;
+	}
+	public void setBonus(double bonus)
+	{
+		this.bonus=bonus;
+	}
 	
 }
